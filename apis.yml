@@ -1,8 +1,24 @@
 aid: aavenir
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aavenir.png
 name: Aavenir
-description: 'Aavenir is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Aavenir is an AI-powered contract lifecycle management (CLM) and source-to-pay software
+  company that delivers procurement, legal, and finance workflow automation applications built natively
+  on the ServiceNow platform. Its product suite includes Contractflow (contract lifecycle management),
+  Obligationflow (contract obligation and compliance management), Sourcingflow (RFx and strategic
+  sourcing), and Invoiceflow (accounts-payable invoice automation), using natural language processing
+  and machine learning to digitize contracts, invoices, and procurement processes. Surfaced as a
+  portfolio company of Accel and added to the API Evangelist network for enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/aavenir/refs/heads/main/apis.yml
 x-type: company
 x-source: accel-portfolio
@@ -10,10 +26,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-17T18:40:00Z'
 tags:
 - Company
 - Cloud Saas
+- Contract Lifecycle Management
+- Procurement
+- Source To Pay
+- Workflow Automation
+- ServiceNow
+- Artificial Intelligence
+- Legal Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aavenir-domain-security.yml
 - type: Website
   url: http://www.aavenir.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
