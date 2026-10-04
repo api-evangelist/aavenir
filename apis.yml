@@ -44,7 +44,7 @@ tags:
 - Contract Lifecycle Management
 - Procurement
 - Source-to-Pay
-- Workflow-Automation
+- Workflow Automation
 - ServiceNow
 - Artificial Intelligence
 - Legal Tech
@@ -58,6 +58,7 @@ tags_raw:
 - ServiceNow
 - Artificial Intelligence
 - Legal Tech
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
